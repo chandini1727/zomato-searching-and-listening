@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f5f2; 
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #d32f2f; 
+  }
+  
+  .header img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  .search-container button {
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7043; 
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .search-container button:hover {
+    background-color: #e64a19;
+  }
+  .restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .restaurant-card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .restaurant-card h3 {
+    color: #d32f2f;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .restaurant-card p {
+    font-size: 15px;
+    color: #555;
+  }
+  .restaurant-card button {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    background-color: #d32f2f;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .restaurant-card button:hover {
+    background-color: #b71c1c;
+  }
+  .pagination {
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff7043;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination button.active {
+    background-color: #d32f2f;
+  }
+  
